@@ -17,3 +17,7 @@ Developing automated Raman spectroscopy data analysis faces several challenges s
 
 # Methodology
 Methodology in a data science project refers to the structured approach or process used to carry out the project from start to finish.The general research strategy in this project is to use the OSEMiN pipline on the availabe dataset to structure their workflow and make it more organized and efficient The OSEMiN pipeline consists of the following five steps: **Obtain, Scrub, Explore, Model, and iNterpret**.
+
+## Obtain
+Parlatan et al. [1] in a recent stuy classified nano-sized extracellular vehicles (EVs) based on their cellular origins, which is important for the development of diagnostic tools and therapies targeting specific cell types. Their study investigated the potential of using machine learning-assisted surface-enhanced Raman spectroscopy (SERS) as a label-free method for differentiating cancer cell-derived exosomes from those of healthy cells. The raw data of this study are openly available in zenodo at https://doi.org/10.5281/zenodo.7011380. Raman spectra of Evs from five types of cells were stored in a CSV file.
+
