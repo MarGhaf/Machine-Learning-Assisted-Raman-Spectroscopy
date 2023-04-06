@@ -21,3 +21,10 @@ Methodology in a data science project refers to the structured approach or proce
 ## Obtain
 Parlatan et al. [1] in a recent stuy classified nano-sized extracellular vehicles (EVs) based on their cellular origins, which is important for the development of diagnostic tools and therapies targeting specific cell types. Their study investigated the potential of using machine learning-assisted surface-enhanced Raman spectroscopy (SERS) as a label-free method for differentiating cancer cell-derived exosomes from those of healthy cells. The raw data of this study are openly available in zenodo at https://doi.org/10.5281/zenodo.7011380. Raman spectra of Evs from five types of cells were stored in a CSV file.
 
+## Scrub
+
+After obtaining the data the first step is to clean and preprocess the raw data to remove any errors, inconsistencies, or missing values. The spectra also need to normalize or scale the data to make it more suitable for machine learning algorithms. This step may include techniques such as outlier removal, imputation, and feature scaling. The beginning of data cleaning is to print a concise summary of a DataFrame with `.info()` method and view a small sample of the DataFrame object with `.head()` method. Through the `.info()` method we access valuable information about missing values and datatype. `.isnull()` is a method that helps us determine the missing value and based on the percentage of them or necessity of them, decided on delete them with .dropna() method. Raman spectroscopy data preprocessing is an essential step for machine learning analysis. Some common preprocessing steps are ***baseline correction, normalization, smoothing, peak detection, feature extraction, and data augmentation***. The preprocessing steps for Raman spectroscopy data depend on the specific application and the quality of the raw data
+
+![image](https://user-images.githubusercontent.com/101681195/230388987-2f6e296b-ac60-4771-a083-c85f64473c52.png)
+
+
