@@ -31,4 +31,5 @@ Removing the baseline from Raman spectra can help to enhance the spectral featur
 **Interpolation-based baseline correction** is a method used in spectroscopy to remove the baseline drift or baseline offset from a signal. The baseline is defined as the low-frequency variations in the signal that are unrelated to the analyte's spectral features. Baseline drift can be caused by various factors, such as instrument noise, changes in temperature, and variations in the intensity of the light source.
 For Raman spectroscopy data, **L2 normalization** is often used, as it scales the Raman spectra to have a unit length while preserving the relative intensity of the spectral features. This can be achieved by dividing each spectrum by its L2 norm, which is calculated as the square root of the sum of the squares of the spectrum values.
 
+![image](https://user-images.githubusercontent.com/101681195/236215624-9161c506-91cd-4c51-80f9-2b2b07ae79bf.png)
 
