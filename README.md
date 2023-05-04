@@ -33,3 +33,7 @@ For Raman spectroscopy data, **L2 normalization** is often used, as it scales th
 
 ![image](https://user-images.githubusercontent.com/101681195/236215624-9161c506-91cd-4c51-80f9-2b2b07ae79bf.png)
 
+## Machine Learning Models
+I trained 2 different machine learning classification models as base models to classifiy the spectra.The models I used were the following:
+- Logistic Regression
+- Random Forest
