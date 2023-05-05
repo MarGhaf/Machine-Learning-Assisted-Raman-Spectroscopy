@@ -58,9 +58,15 @@ On the other hand, the Convolutional Neural Network (CNN) and Residual Network (
 It is also important to note the elapsed time for each model, with the Logistic Regression and FCNN models with preprocessing on data achieving the fastest elapsed time of only 3.54 and 57.04 seconds, respectively, while the RestNet model with and without regularization had the longest elapsed time of 754.91 seconds.
 Overall, the results suggest that the Logistic Regression and FCNN models with preprocessing on data are the most effective for this particular Raman spectroscopy dataset. However, it is important to consider the specific goals of this project that is fact and requirements of the project when selecting a model for practical use.
 
-<p align="center">
-<image src= "https://user-images.githubusercontent.com/101681195/236518309-d65812fd-9b2e-4b99-b41c-7e02d61db387.png" width="619" height="293">
-</p>
+
+
+
+![image](https://user-images.githubusercontent.com/101681195/236521346-349b0dd5-9f36-4658-9cc6-0162f159ae1c.png)
+
+
+
+
+
 
 ![image](https://user-images.githubusercontent.com/101681195/236504689-274878d5-29f8-4f80-a50b-6c9b46d29784.png)
 
