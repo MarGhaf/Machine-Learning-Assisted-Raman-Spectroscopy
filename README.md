@@ -53,7 +53,10 @@ I trained 5 different machine learning classification models to classifiy the sp
 - Fully connected neural network (FCNN)
 - Residual Network (ResNet)
 
-
+Based on the results, the Logistic Regression and Fully connected neural network (FCNN) models with preprocessing on data achieved the highest accuracy of 0.985 and 0.988, respectively, followed by the Decision Tree model with preprocessing on data achieving an accuracy of 0.961. The Decision Tree model with feature extraction achieved a slightly lower accuracy of 0.919, indicating that the feature extraction may not have been effective for this dataset.
+On the other hand, the Convolutional Neural Network (CNN) and Residual Network (RestNet) models, both with and without preprocessing on data, performed poorly, with accuracies of only 0.231 and 0.149, respectively. This suggests that the CNN and RestNet models may not be suitable for this particular dataset.
+It is also important to note the elapsed time for each model, with the Logistic Regression and FCNN models with preprocessing on data achieving the fastest elapsed time of only 3.54 and 57.04 seconds, respectively, while the RestNet model with and without regularization had the longest elapsed time of 754.91 seconds.
+Overall, the results suggest that the Logistic Regression and FCNN models with preprocessing on data are the most effective for this particular Raman spectroscopy dataset. However, it is important to consider the specific goals of this project that is fact and requirements of the project when selecting a model for practical use.
 
 
 
