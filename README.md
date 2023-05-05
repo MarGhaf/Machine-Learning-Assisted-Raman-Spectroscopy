@@ -55,6 +55,5 @@ I trained 5 different machine learning classification models to classifiy the sp
 
 
 
-![image](https://user-images.githubusercontent.com/101681195/236504400-4bc7fc54-2e1a-4a2c-9ae7-cafeda61a320.png)
 
 
