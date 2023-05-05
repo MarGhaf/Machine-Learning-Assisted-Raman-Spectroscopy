@@ -68,8 +68,9 @@ Overall, the results suggest that the Logistic Regression and FCNN models with p
 
 
 
-![image](https://user-images.githubusercontent.com/101681195/236504689-274878d5-29f8-4f80-a50b-6c9b46d29784.png)
 
+
+![image](https://user-images.githubusercontent.com/101681195/236524249-444a32bb-178f-426b-aca6-7bf9a3a276ea.png)
 
 
 
