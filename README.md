@@ -63,3 +63,15 @@ Overall, the results suggest that the Logistic Regression and FCNN models with p
 
 
 ![image](https://user-images.githubusercontent.com/101681195/236504689-274878d5-29f8-4f80-a50b-6c9b46d29784.png)
+
+
+
+
+ ## Repository Structure
+```
+
+├── Code : final_student.ipynb includ modeling
+├── Data : Data used for modeling, includes train and test image files
+├── Images : Images used in Phase 4 Project Presentation.pdf and README
+├── Phase 4 Project Presentation.pdf : Presentation for stakeholders
+└── README.md : Project information and repository structure
