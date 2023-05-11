@@ -71,12 +71,52 @@ Overall, the results suggest that the Logistic Regression and FCNN models with p
 ![image](https://user-images.githubusercontent.com/101681195/236524249-444a32bb-178f-426b-aca6-7bf9a3a276ea.png)
 
 ## Feature Importance
+In the context of Raman spectroscopy data analysis, feature importance can be a valuable tool for understanding and interpreting the data. Here are some reasons why feature importance is important:
 
+1. Identification of Relevant Spectral Features: Raman spectroscopy generates a large amount of spectral data, often consisting of hundreds or thousands of variables (wavelengths/intensities). Feature importance analysis can help identify the specific spectral features that contribute the most to the classification or regression task at hand. By focusing on the most important features, you can gain insights into the molecular or compositional characteristics of the samples being analyzed.
+
+2. Dimensionality Reduction: Raman spectroscopy datasets are typically high-dimensional, which can make analysis and interpretation challenging. Feature importance analysis can aid in dimensionality reduction by identifying the most informative features. By selecting a subset of important features, you can reduce the complexity of the data and improve the efficiency and effectiveness of subsequent analysis steps.
+
+3. Identifying Spectral Artefacts or Noise: In some cases, certain spectral features may not contribute meaningfully to the classification or regression task and might be noise or artefacts. Feature importance analysis can help identify such features, allowing for data cleaning and improving the overall quality of the analysis results.
+
+In this project the `permutation_importance` method from scikit-learn's `inspection` module was used. This method calculates feature importance by permuting the values of each feature and measuring the impact on the model's performance.
+
+
+
+
+
+The exact interpretation of Raman peaks depends on factors such as molecular structure, chemical environment, and experimental conditions. According to the top 10 important features peaks around 700, 850, and 1050 cm^-1  have a significant role in predicting the type of vesicles secreted from different cancerous cell types. Aromatic amino acids, including phenylalanine, tyrosine, and tryptophan, can contribute to Raman peaks in this region in the context of biological samples. This finding helps scientists to identify specific molecules and study their role in cell behaviors would be valuable in cardiology studies. 
+
+
+# Conclusion 
+In conclusion, this project aimed to develop automated data analysis methods based on machine learning algorithms for Raman spectroscopy in biological samples. The objective was to address the challenges associated with large quantities of spectral data, complex spectra with overlapping peaks and noise, and the need for specialized knowledge for analysis and interpretation.
+By leveraging the power of machine learning, the project successfully developed a user-friendly software tool that makes Raman spectroscopy more accessible to non-expert users and facilitates faster and more precise data analysis. The chosen model, the Fully connected neural network (FCNN), achieved high accuracy in classifying the spectra and demonstrated low false-negative rates for the more malignant cell types. The evaluation metrics focused on sensitivity (recall) and elapsed time for prediction. The FCNN model achieved an accuracy of 0.988 and demonstrated a recall above 0.9, ensuring the low false-negative rate required to identify high-risk cell types accurately. Additionally, the prediction elapsed time of less than 60 seconds met the desired efficiency for practical use. Feature importance analysis using permutation importance helped identify the most relevant spectral features for classification.
+Overall, the developed machine learning-assisted Raman spectroscopy method holds great potential in the field of molecular analysis. It can contribute to advancements in healthcare, materials science, and pharmaceuticals by enabling faster and more accurate diagnostics, efficient drug discovery, and the development of new materials. By overcoming the challenges associated with Raman spectroscopy data analysis, this project has paved the way for enhanced understanding and utilization of Raman spectroscopy in various industries.
+
+# Recommendations & Future Works
+Based on the business understanding and the results of machine learning, the following recommendations and future works can be suggested:
+
+- Deploy the model: It is recommended to deploy the model that has shown good performance on the Raman spectroscopy dataset. Fully connected neural network with preprocessing has shown good results, and it can be used for further analysis.
+
+- Increase dataset size: To improve the model's performance, increasing the dataset size can be useful. Collecting more samples from different sources can help in better model generalization.
+
+- Fine-tune the models: Fine-tuning the models can help in improving their performance. The hyperparameters of the models can be adjusted and optimized to improve their performance.
+
+- Develop user-friendly interface: As mentioned in the business understanding, the current methods for Raman spectroscopy data analysis require specialized knowledge and expertise. Therefore, developing a user-friendly interface that can make the Raman spectroscopy more accessible to non-expert users can be useful.
+
+- Develop ensemble models: Combining multiple models can lead to better performance. Therefore, developing ensemble models that can combine the predictions of different models can be useful.
+
+- Investigate feature extraction methods: Investigating feature extraction methods can help in improving the performance of the models. Different feature extraction methods can be compared to find the most effective ones for Raman spectroscopy data analysis.
+
+- Further validation: It is recommended to further validate the performance of the models on external datasets to ensure that they are generalizable and can be used in different settings.
+
+- Collaborate with industry partners: Collaborating with industry partners can help in better understanding the needs and challenges of the industry and developing solutions that can address these challenges.
+- 
  ## Repository Structure
 ```
 
 ├── Code : final_student.ipynb includ modeling
 ├── Data : Data used for modeling, includes train and test image files
-├── Images : Images used in Phase 4 Project Presentation.pdf and README
-├── Phase 4 Project Presentation.pdf : Presentation for stakeholders
+├── Images : Images used in Phase 5 Project Presentation.pdf and README
+├── Phase 5 Project Presentation.pdf : Presentation for stakeholders
 └── README.md : Project information and repository structure
