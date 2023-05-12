@@ -119,5 +119,5 @@ Based on the business understanding and the results of machine learning, the fol
 ├── Code : Student_final.ipynb includ modeling
 ├── Data : Data used for modeling
 ├── Images : Images used in Phase 5 Project Presentation.pdf and README
-├── Phase 5 Project Presentation.pdf : Presentation for stakeholders
+├── Capstone Project Presentation.pdf : Presentation for stakeholders
 └── README.md : Project information and repository structure
