@@ -81,9 +81,9 @@ In the context of Raman spectroscopy data analysis, feature importance can be a 
 
 In this project the `permutation_importance` method from scikit-learn's `inspection` module was used. This method calculates feature importance by permuting the values of each feature and measuring the impact on the model's performance.
 
-
-
-
+<p align="center">
+<img width="460" height="300" src="https://github.com/MarGhaf/Machine-Learning-Assisted-Raman-Spectroscopy/assets/101681195/036234a1-024e-4412-8f87-2afab04a01e6">
+</p>
 
 The exact interpretation of Raman peaks depends on factors such as molecular structure, chemical environment, and experimental conditions. According to the top 10 important features peaks around 700, 850, and 1050 cm^-1  have a significant role in predicting the type of vesicles secreted from different cancerous cell types. Aromatic amino acids, including phenylalanine, tyrosine, and tryptophan, can contribute to Raman peaks in this region in the context of biological samples. This finding helps scientists to identify specific molecules and study their role in cell behaviors would be valuable in cardiology studies. 
 
