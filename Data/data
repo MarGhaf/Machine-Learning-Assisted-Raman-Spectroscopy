@@ -1,2 +1,36 @@
-The dataset comes from Parlatan et al. are openly available in
-zenodo at https://zenodo.org/record/7011380#.ZF2O23bMJPY
+To access and use the dataset from Parlatan et al., which is openly available on Zenodo, please follow these instructions:
+
+1. Open your web browser and go to the following URL: https://zenodo.org/record/7011380#.ZF2O23bMJPY
+
+2. On the Zenodo webpage, you will find information about the dataset, such as the title, authors, description, and license. Read through the information to ensure it meets your requirements.
+
+3. If necessary, click on the "Download" button "Main_Text.zip" to download the dataset files to your local machine. Choose a suitable location on your computer to save the downloaded files.
+
+4. Once the download is complete, navigate to the directory where you saved the dataset files on your local machine. Make note of the directory path.
+
+5. Depending on the format of the dataset, you may need to install specific software or libraries to work with it. For example, if the dataset is in CSV format and you intend to use Python for analysis, ensure you have Python installed along with libraries like pandas or NumPy.
+
+6. If necessary, install any additional dependencies or libraries required to process or analyze the dataset. You can use package managers like pip or conda to install the required libraries for your chosen programming language or environment.
+
+7. Load the dataset into your preferred tool or programming environment. For example, if you are using Python and the dataset is in CSV format, you can use the pandas library to read the CSV file and create a DataFrame object to work with the data.
+
+   ```python
+   import pandas as pd
+
+   # Assuming the dataset file is in CSV format and named "dataset.csv"
+   dataset_path = "<path_to_dataset>/dataset.csv"
+   
+   # Load the dataset into a pandas DataFrame
+   df = pd.read_csv(dataset_path)
+   ```
+
+8. Verify that the dataset has been successfully loaded by displaying a few rows or running basic operations on the data. For example, you can use the `head()` method in pandas to view the first few rows of the DataFrame.
+
+   ```python
+   # Display the first 5 rows of the dataset
+   print(df.head())
+   ```
+
+9. Now that the dataset is accessible in your local environment, you can start using it for your intended purposes. You can perform various data analyses, visualizations, or build models based on your requirements.
+
+Remember to comply with any licensing terms or restrictions associated with the dataset and acknowledge the original authors as per their guidelines.
